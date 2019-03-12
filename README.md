@@ -1,0 +1,2 @@
+# homebrew-sygic
+HomeBrew tap
