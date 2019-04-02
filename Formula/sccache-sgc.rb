@@ -4,6 +4,8 @@ class SccacheSgc < Formula
   url "https://github.com/mozilla/sccache/archive/0.2.7.tar.gz"
   sha256 "0f7e3ad60a93759a35623aa954633c94154fd00d17fe29f9413933e1c5545a52"
 
+  bottle :unneeded
+
   depends_on "rust" => :build
   depends_on "openssl@1.1"
 
