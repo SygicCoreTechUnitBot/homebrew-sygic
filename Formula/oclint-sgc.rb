@@ -2,7 +2,7 @@ class OclintSgc < Formula
   desc "OCLint static code analysis tool for C, C++, and Objective-C"
   homepage "http://oclint.org"
   version '0.15'
-  sha256 'b6755a8a40cdc65bbf9a8d188909ad68906e62fe971c490f4dccbe4bb8a5d16d'
+  sha256 '217fd7a9390b809f911c618a8efb73d49fc9ecb6ff0720fc548c8f9c353a9147'
   url "https://repository.sygic.com/repository/maven-sygic-3rdparty/org/oclint/oclint-sgc/#{version}/oclint-sgc-#{version}-x86_64-darwin18.7.0.tar.gz"
   head "https://github.com/oclint/oclint.git"
 
