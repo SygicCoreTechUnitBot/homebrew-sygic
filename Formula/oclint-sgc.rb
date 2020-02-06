@@ -1,4 +1,4 @@
-class Oclint < Formula
+class OclintSgc < Formula
   desc "OCLint static code analysis tool for C, C++, and Objective-C"
   homepage "http://oclint.org"
   version '0.15'
