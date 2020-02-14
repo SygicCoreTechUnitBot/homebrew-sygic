@@ -2,7 +2,7 @@ class SccacheSgc < Formula
   desc "Used as a compiler wrapper and avoids compilation when possible"
   homepage "https://github.com/mozilla/sccache"
   url "https://repository.sygic.com/repository/maven-sygic-3rdparty/org/mozilla/sccache/sccache/0.2.7_1-sgc/sccache-0.2.7_1-sgc.tar.gz"
-  sha256 "496a0264896c6f059982ecac891f4af95b1e207c379b0ce0b926e5cea7c8da4c"
+  sha256 "42dbedfc423ea964ac6a6fa51085d9ae5ab4c7d0a1ed11b65051336d83148bc3"
 
   bottle :unneeded
 
