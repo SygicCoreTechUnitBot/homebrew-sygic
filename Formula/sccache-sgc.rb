@@ -1,8 +1,8 @@
 class SccacheSgc < Formula
   desc "Used as a compiler wrapper and avoids compilation when possible"
   homepage "https://github.com/mozilla/sccache"
-  url "https://repository.sygic.com/repository/maven-sygic-3rdparty/org/mozilla/sccache/sccache/0.2.7-sgc.1/sccache-0.2.7-sgc.1.tar.gz"
-  sha256 "c9f3d100cf8073a68b761583a276b18be007939d1ae429119abec61b787c1401"
+  url "https://repository.sygic.com/repository/maven-sygic-3rdparty/org/mozilla/sccache/sccache/0.2.7_1-sgc/sccache-0.2.7_1-sgc.tar.gz"
+  sha256 "a90e420b60e7c44b8880ec62cb97d80ee667b097fa496cab6c814c47a4dd79f0"
 
   depends_on "rust" => :build
   depends_on "openssl@1.1"
