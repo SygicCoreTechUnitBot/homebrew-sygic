@@ -4,6 +4,12 @@ class SccacheSgc < Formula
   url "https://repository.sygic.com/repository/maven-sygic-3rdparty/org/mozilla/sccache/sccache/0.2.7_1-sgc/sccache-0.2.7_1-sgc.tar.gz"
   sha256 "a90e420b60e7c44b8880ec62cb97d80ee667b097fa496cab6c814c47a4dd79f0"
 
+  bottle do
+    root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles/"
+    cellar :any
+    sha256 "cb342857f4c1b620e4bc701265a8f51a211d832fcbae83ca11aa193cd4c3c849" => :mojave
+  end
+
   depends_on "rust" => :build
   depends_on "openssl@1.1"
 
