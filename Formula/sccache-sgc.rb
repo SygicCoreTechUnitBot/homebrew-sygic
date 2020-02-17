@@ -4,8 +4,6 @@ class SccacheSgc < Formula
   url "https://repository.sygic.com/repository/maven-sygic-3rdparty/org/mozilla/sccache/sccache/0.2.7-sgc.1/sccache-0.2.7-sgc.1.tar.gz"
   sha256 "c9f3d100cf8073a68b761583a276b18be007939d1ae429119abec61b787c1401"
 
-  bottle :unneeded
-
   depends_on "rust" => :build
   depends_on "openssl@1.1"
 
