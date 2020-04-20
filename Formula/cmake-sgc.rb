@@ -1,4 +1,4 @@
-class Cmake < Formula
+class CmakeSgc < Formula
   desc "Cross-platform make"
   homepage "https://www.cmake.org/"
   url "https://github.com/Kitware/CMake/releases/download/v3.16.6/cmake-3.16.6.tar.gz"
