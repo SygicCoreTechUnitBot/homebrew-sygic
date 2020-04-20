@@ -16,7 +16,7 @@ class CmakeSgc < Formula
   end
 
   bottle do
-    root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles/"
+    root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles"
     cellar :any_skip_relocation
     sha256 "f078775f3f1e41d8db45a24b24ea6025121f3b2cd5a38e03478236c0e21346b8" => :high_sierra
     sha256 "172eb2a8b4d5229a8d15705c794d5227d6a0895ff218aadc5ed73e5cb588a9c0" => :catalina
