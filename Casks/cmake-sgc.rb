@@ -7,7 +7,7 @@ cask 'cmake-sgc' do
   name 'CMake'
   homepage 'https://cmake.org/'
 
-  conflicts_with formula: 'cmake-sgc'
+  conflicts_with formula: 'cmake'
 
   app 'CMake.app'
   binary "#{appdir}/CMake.app/Contents/bin/cmake"
