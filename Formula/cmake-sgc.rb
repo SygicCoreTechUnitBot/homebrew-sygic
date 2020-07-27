@@ -4,8 +4,8 @@ class CmakeSgc < Formula
   head "https://gitlab.kitware.com/cmake/cmake.git"
 
   stable do
-    url "https://github.com/Kitware/CMake/releases/download/v3.16.6/cmake-3.16.6.tar.gz"
-    sha256 "6f6ff1a197851b0fa8412ff5de602e6717a4eb9509b2c385b08589c4e7a16b62"
+    url "https://github.com/Kitware/CMake/releases/download/v3.16.8/cmake-3.16.8.tar.gz"
+    sha256 "177434021132686cb901fea7db9fa2345efe48d566b998961594d5cc346ac588"
 
     # Allows CMAKE_FIND_FRAMEWORKS to work with CMAKE_FRAMEWORK_PATH, which brew sets.
     # Remove with 3.18.0.
