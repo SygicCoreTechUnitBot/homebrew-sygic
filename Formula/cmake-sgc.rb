@@ -18,8 +18,8 @@ class CmakeSgc < Formula
   bottle do
     root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles"
     cellar :any_skip_relocation
-    sha256 "f078775f3f1e41d8db45a24b24ea6025121f3b2cd5a38e03478236c0e21346b8" => :high_sierra
-    sha256 "172eb2a8b4d5229a8d15705c794d5227d6a0895ff218aadc5ed73e5cb588a9c0" => :catalina
+    sha256 "c8101e0b7b60fb28a9e07ee39e8f7bcaba1f21a387369e15f956d3ac25e4a29f" => :high_sierra
+    sha256 "e7ce33623794de90adfe90763720a256625b438d9665f06435651365713c3259" => :catalina
   end
   
   depends_on "sphinx-doc" => :build
