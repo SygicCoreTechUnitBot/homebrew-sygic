@@ -5,6 +5,12 @@ class OpensslSgc < Formula
   url "https://www.openssl.org/source/openssl-1.0.2u.tar.gz"
   sha256 "ecd0c6ffb493dd06707d38b14bb4d8c2288bb7033735606569d8f90f89669d16"
 
+  bottle do
+    root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles/"
+    cellar :any_skip_relocation
+    sha256 "02770e710746463c66beca509cbe6302757a35fcb249c55eab7e594cc8878fcc" => :catalina
+  end
+  
   keg_only :provided_by_macos,
     "Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries"
 
