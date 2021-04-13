@@ -7,8 +7,7 @@ class OpensslSgc < Formula
 
   bottle do
     root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles/"
-    cellar :any_skip_relocation
-    sha256 "02770e710746463c66beca509cbe6302757a35fcb249c55eab7e594cc8878fcc" => :catalina
+    sha256 cellar: :any_skip_relocation, catalina: "02770e710746463c66beca509cbe6302757a35fcb249c55eab7e594cc8878fcc"
   end
   
   keg_only :provided_by_macos,
