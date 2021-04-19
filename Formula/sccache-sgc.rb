@@ -6,8 +6,7 @@ class SccacheSgc < Formula
 
   bottle do
     root_url "https://repository.sygic.com/repository/raw-sygic-3rdparty/homebrew/bottles/"
-    cellar :any
-    sha256 "cb342857f4c1b620e4bc701265a8f51a211d832fcbae83ca11aa193cd4c3c849" => :mojave
+    sha256 cellar: :any_skip_relocation, mojave: "cb342857f4c1b620e4bc701265a8f51a211d832fcbae83ca11aa193cd4c3c849"
   end
 
   depends_on "rust" => :build
