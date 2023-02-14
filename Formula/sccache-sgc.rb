@@ -21,8 +21,8 @@ class SccacheSgc < Formula
                                "--features", "all"
   end
 
-  plist_options :startup => true
-
+  #plist_options :startup => true
+  
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -56,6 +56,10 @@ class SccacheSgc < Formula
   EOS
   end
 
+  service do
+    require_root true
+  end
+  
   test do
     (testpath/"hello.c").write <<~EOS
       #include <stdio.h>
